@@ -18,6 +18,11 @@
 	src: url(./fonts/AtlanticFuture.otf);
 }
 
+@font-face {
+	font-family: "noto";
+	src: url(./fonts/NotoSansJP-Black.otf);
+}
+
 html {
     font-size: 1vw;
 }
@@ -73,7 +78,7 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    border: 1px solid white;
+    border: 1px solid #25bcff;
     transform: translate(-50%,-50%);
 }
 
@@ -183,6 +188,60 @@ iframe {
     left: 0.5vw;
     z-index: 99;
 }
+
+.mentor-comments * {
+    /* outline: 1px solid red; */
+}
+
+.mentor-comments {
+    position: relative;
+    z-index: 999;
+}
+
+.mentor-comments ul {
+
+}
+
+.mentor-comments ul li {
+    margin-bottom: 5vw;
+}
+
+.comment {
+    display: flex;
+    width: 100%;
+    padding-left: 12vw;
+}
+
+.comment svg {
+    position: absolute;
+}
+
+.comment img {
+    width: 8vw;
+    height: 8vw;
+    border-radius: 50%;
+}
+
+.comment-inner {
+    color: white;
+    padding-left: 3vw;
+}
+
+.comment-inner h3 {
+    font-family: "851gkktt";
+    font-size: 2.8rem;
+    margin: 0;
+    margin-bottom: 0.5vw;
+}
+
+.comment-inner p {
+    font-family: "noto";
+    font-size: 1rem;
+    width: 60vw;
+    margin: 0.5vw 0;
+}
+
+
 
 .no-scroll {
     overflow: hidden;

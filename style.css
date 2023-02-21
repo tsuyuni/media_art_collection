@@ -30,6 +30,7 @@ html {
 body {
     margin: 0;
     background-color: #090e1f;
+    cursor: none;
     z-index: -999;
 }
 
@@ -89,9 +90,29 @@ body {
 }
 
 .work-description {
-    background-color: white;
+    background-color: black;
     width: 100%;
     height: 25%;
+    padding-top: 1.5vw;
+    box-sizing: border-box;
+}
+
+.work-description h3 {
+    margin: 0;
+    margin-left: 2vw;
+    color: white;
+    font-family: "851gkktt";
+    font-size: 3rem;
+}
+
+.work-description span {
+    font-size: 1.8rem;
+}
+
+.work-description p {
+    font-family: "noto";
+    color: white;
+    padding: 0.5vw 4vw;
 }
 
 iframe {
@@ -106,17 +127,20 @@ iframe {
     left: 8vw;
     height: 50vh;
     border: 0.1px solid #25bcff;
+    z-index: 9999;
 }
 
 .scroll-guide-wrapper span {
     position: fixed;
     color: #25bcff;
     display: block;
-    transform: rotate(-90deg);
+    transform: rotate(-90deg) translateX(-60%);
     font-family: "851gkktt";
     font-size: 2rem;
-    bottom: 40vh;
-    left: 3vw;
+    bottom: 50vh;
+    left: 2vw;
+    background-color: #090e1f;
+    padding: 1vw;
 }
 
 .ul-wrapper {

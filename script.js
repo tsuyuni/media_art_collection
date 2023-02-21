@@ -4,18 +4,18 @@ $(function(){
         {
             "ayusa": {
                 "name": "あゆさ",
-                "title": "タイトル",
-                "desc": "がんばりました。"
+                "title": "MOZI",
+                "desc": "テンプレートの文字と色のバリエーションを変えたもの。閲覧用です。"
             },
             "boss": {
                 "name": "BOSS",
-                "title": "",
-                "desc": ""
+                "title": "3DBOX",
+                "desc": "移動したりするよ。使い方は自分で考えろ！"
             },
             "chuson": {
                 "name": "ちゅうそん",
-                "title": "",
-                "desc": ""
+                "title": "駅メロ",
+                "desc": "AとBでなんかひきます。国鉄型しか勝たん。以上"
             },
             "hiroto": {
                 "name": "ひろと",
@@ -24,8 +24,8 @@ $(function(){
             },
             "kaede": {
                 "name": "かえで",
-                "title": "",
-                "desc": ""
+                "title": "雪",
+                "desc": "Aを押すと波もんが広がります。Aを押す、以上！"
             },
             "katsuya": {
                 "name": "かつや",
@@ -34,13 +34,13 @@ $(function(){
             },
             "keichan": {
                 "name": "けいちゃん",
-                "title": "",
-                "desc": ""
+                "title": "サウンドエフェクト",
+                "desc": "音楽に合わせて円が動く仕組みです。見るだけです。"
             },
             "nao": {
                 "name": "なお",
-                "title": "",
-                "desc": ""
+                "title": "回転が２つ",
+                "desc": "２つの回転しているやつをつくりました。"
             },
             "rio": {
                 "name": "りお",
@@ -49,33 +49,33 @@ $(function(){
             },
             "riu": {
                 "name": "りう",
-                "title": "",
-                "desc": ""
+                "title": "雨",
+                "desc": "雨っぽいやつ。A連打"
             },
             "romon": {
                 "name": "ろもん",
-                "title": "",
-                "desc": ""
+                "title": "カスガのけいりんダンス",
+                "desc": "見る"
             },
             "saya": {
                 "name": "さや",
-                "title": "",
-                "desc": ""
+                "title": "Miku",
+                "desc": "自分の好きな曲の名前を書いて作ったので、みくさん要素がいっぱいあってかわいいです。"
             },
             "shingo": {
                 "name": "しんご",
-                "title": "",
-                "desc": ""
+                "title": "さざ波",
+                "desc": "トラックパッドを押すとできる。"
             },
             "tanahashi": {
                 "name": "たなはし",
-                "title": "",
-                "desc": ""
+                "title": "バブルサウンド",
+                "desc": "Aを押すと、音が出る作品です！！Aボタンを押すと音が出ます！"
             },
             "tsuribito": {
                 "name": "つりびと",
-                "title": "",
-                "desc": ""
+                "title": "レーダー",
+                "desc": "キャラクターをイメージしました。"
             },
         };
 

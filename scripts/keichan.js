@@ -26,7 +26,7 @@ var sketch = function(kei){
         kei.strokeWeight(17);
         for (let i = 0; i < spectrum.length; i++) {
             let radius = spectrum[i] / 2
-            kei.ellipse(kei.width/2-240*kei.cos(kei.PI/3*i + kei.frameCount/20), kei.height/2-100*kei.sin(kei.PI/9*i), 2 * radius);
+            kei.ellipse(kei.width/2-240*kei.cos(kei.PI/3*i + kei.frameCount/40), kei.height/2-100*kei.sin(kei.PI/9*i), 2 * radius);
         }
     }
 

@@ -25,6 +25,7 @@ var sketch = function(riu){
     riu.keyTyped = function(){
         if (riu.key == 'a') {
           motions.push(new MotionA());
+        //   dropSound.stop();
           dropSound.play();
         }
     }
@@ -36,7 +37,7 @@ var sketch = function(riu){
             this.positionY = riu.random(riu.height);
             this.size = riu.random(20);
             this.color = riu.color(135+riu.random(-20, 20), 206+riu.random(-20, 20), 250+riu.random(-20, 20), 200);
-            this.lifetime = 100;
+            this.lifetime = 10;
         }
       
         draw(){

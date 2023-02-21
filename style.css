@@ -226,8 +226,8 @@ iframe {
 
 .photo {
     width: 48vw;
-    height: 36vw;
-    background-color: #dddddd;
+    height: fit-content;
+    /* background-color: #dddddd; */
 }
 
 .photo img {
@@ -326,6 +326,17 @@ iframe {
         font-size: 6rem;
         top: 6vw;
         left: 2vw;
+    }
+
+    .photo-wrapper {
+        top: 24vw;
+        margin-bottom: 8vw;
+
+    }
+
+    .photo {
+        width: 64vw;
+        height: fit-content;
     }
 
     .mentor-comments {

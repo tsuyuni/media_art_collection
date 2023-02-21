@@ -34,6 +34,7 @@ body {
     z-index: -999;
     width: 100vw;
     height: 100vh;
+    padding-bottom: 10vw;
 }
 
 #bg {
@@ -218,6 +219,7 @@ iframe {
 .mentor-comments {
     position: relative;
     z-index: 999;
+    padding-bottom: 10vw;
 }
 
 .mentor-comments ul li {

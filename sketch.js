@@ -85,23 +85,17 @@ let sketch = function(main){
 
         main.pop();
 
-        main.push();
-        main.fill("#25bcff");
-        main.noStroke();
-        main.drawingContext.shadowColor = "#25bcff";
-        main.translate(arrowLeft,arrowTop+main.height/4*main.sin(main.frameCount/60));
-        if (main.cos(main.frameCount/60)<=0.1){
-            main.noFill();
-        }
-        for (let i=0; i<5; i++){
-            main.quad(0,0+20*i,10,10+20*i,10,20+20*i,0,10+20*i);
-        }
-        main.pop();
-
         // main.push();
-        // main.fill("#090e1f");
+        // main.fill("#25bcff");
         // main.noStroke();
-        // main.rect(main.width/20,main.height/2,main.width/28,main.width*2/19);
+        // main.drawingContext.shadowColor = "#25bcff";
+        // main.translate(arrowLeft,arrowTop+main.height/4*main.sin(main.frameCount/60));
+        // if (main.cos(main.frameCount/60)<=0.1){
+        //     main.noFill();
+        // }
+        // for (let i=0; i<5; i++){
+        //     main.quad(0,0+20*i,10,10+20*i,10,20+20*i,0,10+20*i);
+        // }
         // main.pop();
 
         main.push();

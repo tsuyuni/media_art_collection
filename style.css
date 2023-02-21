@@ -32,6 +32,8 @@ body {
     background-color: #090e1f;
     cursor: none;
     z-index: -999;
+    width: 100vw;
+    height: 100vh;
 }
 
 #bg {
@@ -213,17 +215,9 @@ iframe {
     z-index: 99;
 }
 
-.mentor-comments * {
-    /* outline: 1px solid red; */
-}
-
 .mentor-comments {
     position: relative;
     z-index: 999;
-}
-
-.mentor-comments ul {
-
 }
 
 .mentor-comments ul li {
@@ -234,6 +228,7 @@ iframe {
     display: flex;
     width: 100%;
     padding-left: 12vw;
+    box-sizing: border-box;
 }
 
 .comment svg {
@@ -265,8 +260,85 @@ iframe {
     margin: 0.5vw 0;
 }
 
-
-
 .no-scroll {
     overflow: hidden;
+}
+
+@media only screen and (max-width:540px) {
+
+    .title {
+        width: 90%;
+    }
+    
+    .scroll-guide-wrapper span {
+        font-size: 4rem;
+        left: -3vw;
+        padding: 2vw;
+
+    }
+
+    .ul-wrapper {
+        margin-top: 10vw;
+        height: auto;
+    }
+
+    .ul-wrapper ul li {
+        margin-bottom: 12vw;
+    }
+
+    .work {
+        width: 36vw;
+        height: 63vw
+    }
+
+    .work span {
+        font-size: 8rem;
+        top: 6vw;
+        left: 4.8vw;
+    }
+
+    .work img {
+        top: 9vw;
+        left: 3.5vw;
+    }
+
+    .work h3 {
+        font-size: 6rem;
+        top: 6vw;
+        left: 2vw;
+    }
+
+    .mentor-comments {
+        top: 30vw;
+    }
+
+    .mentor-comments ul li {
+       padding: 6vw 0;
+    }
+
+    .comment {
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+    }
+
+    .comment img {
+        width: 30vw;
+        height: 30vw;
+    }
+
+    .comment-inner {
+        padding: 0;
+    }
+
+    .comment h3 {
+        font-size: 8rem;
+        margin: 3vw 0;
+        text-align: center;
+    }
+
+    .comment p {
+        font-size: 2.8rem;
+    }
+
 }

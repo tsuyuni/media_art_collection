@@ -84,7 +84,7 @@ $(function(){
         let src = "./pages/" + id + ".html"
         let iframe = $(`<iframe src=${src} scrolling="no"></iframe>`);
         $(".modal-wrapper").addClass("active");
-        $(".work-description h3").html(`${descriptions[id].title} <span>created by</span> ${descriptions[id].name}`);
+        $(".work-description h3").html(`「${descriptions[id].title}」 <span>created by</span> ${descriptions[id].name}`);
         $(".work-description p").text(descriptions[id].desc);
         $.when(
             $(".modal-container").animate({"height": "48vw"},120,"swing")

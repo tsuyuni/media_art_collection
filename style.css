@@ -142,7 +142,6 @@ iframe {
     font-size: 2rem;
     bottom: 50vh;
     left: 2vw;
-    background-color: #090e1f;
     padding: 1vw;
 }
 
@@ -214,6 +213,25 @@ iframe {
     top: 1vw;
     left: 0.5vw;
     z-index: 99;
+}
+
+.photo-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 8vw;
+    z-index: 9999;
+}
+
+.photo {
+    width: 48vw;
+    height: 36vw;
+    background-color: #dddddd;
+}
+
+.photo img {
+    width: 100%;
 }
 
 .mentor-comments {
